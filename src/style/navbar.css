@@ -1,0 +1,165 @@
+.containerNav {
+    background-color: rgb(255, 255, 255);
+    /* border-top: 1px solid black; */
+    box-shadow: 0 -1px 5px 1px rgb(110, 110, 110);
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    height: 50px;
+    display: flex;
+    z-index: 99;
+}
+
+.contenNav {
+    /* height: 100%; */
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 10px;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    padding-top: 5px;
+    /* overflow: hidden; */
+}
+
+.isiNav img {
+    width: 30px;
+    height: 30px;
+    margin: 1px 0;
+}
+
+.isiNav {
+    text-align: center;
+    margin-top: 4px;
+
+}
+
+
+.containerNav span {
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+    display: block;
+    margin-top: -5px;
+    margin-bottom: 5px;
+}
+
+.iNav {
+    text-decoration: none;
+}
+
+.isiNav .hLight {
+    color: #3E64EA;
+    /* font-size: 1.2em; */
+}
+
+.isiNav:hover span {
+    color: rgb(0, 184, 240);
+    text-shadow: 5px solid black;
+}
+
+.searchNavbar {
+    display: none;
+}
+
+.logoOn,
+.logoOff {
+    display: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Alex+Brush&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bad+Script&display=swap');
+
+
+
+@media (min-width:768px) {
+
+
+
+    .containerNav {
+        /* background-color: rgb(105, 233, 31); */
+        top: 0;
+        justify-content: center;
+        align-items: center;
+        overflow: hidden;
+        /* border-bottom: 1px solid black; */
+        box-shadow: 0 -1px 5px 1px rgb(110, 110, 110);
+        height: 60px;
+
+
+
+    }
+
+
+
+    .iNav img {
+        display: none;
+    }
+
+
+
+    .isiNav {
+        font-size: 20px;
+        font-family: 'Bad Script', cursive;
+    }
+
+    .iNav .hLight {
+        text-decoration: underline;
+        margin-bottom: 2px;
+    }
+
+
+
+    .contenNav {
+        /* justify-content: space-between; */
+        margin-left: 5vw;
+        width: 50%;
+        /* background-color: #787a80; */
+        /* margin-right: 6vw; */
+    }
+
+    /* search navbar */
+    .searchNavbar {
+        display: block;
+        width: 50%;
+        margin-top: -20px;
+
+
+    }
+
+    .searchNavbar .conSearch {
+        width: 70%;
+        margin-right: 68px;
+
+    }
+
+    .hideSearch {
+        display: none;
+    }
+
+
+
+
+    .logoOn {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        margin-left: 30px;
+        top: 0;
+        font-family: 'alex brush', cursive;
+        font-size: 48px;
+        margin-top: 0px;
+    }
+
+}
+
+
+
+@media(max-width:200px) {
+
+    .containerNav {
+        display: none;
+    }
+}
